@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+
+version: "0.2"
+
+suggestionsTimeout: 5000
+
+language: en-US
+
+dictionaries:
+  - cpp
+  - npm
+
+words:
+  - Patryk
+  - Szydłowski
