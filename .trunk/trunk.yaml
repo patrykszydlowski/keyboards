@@ -25,6 +25,7 @@ lint:
   enabled:
     - pre-commit-hooks@5.0.0
     - prettier@3.5.3
+    - shellcheck@0.10.0
     - yamllint@1.37.0
 
 runtimes:
