@@ -1,0 +1,17 @@
+{
+	"name": "keyboards",
+	"image": "ghcr.io/qmk/qmk_cli",
+	"remoteUser": "dev",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2.5.3": {
+			"configureZshAsDefaultShell": true
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"editorconfig.editorconfig"
+			]
+		}
+	}
+}
