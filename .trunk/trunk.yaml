@@ -26,6 +26,7 @@ lint:
   enabled:
     - checkov@3.2.396
     - cspell@8.18.1
+    - git-diff-check
     - pre-commit-hooks@5.0.0
     - prettier@3.5.3
     - shellcheck@0.10.0
