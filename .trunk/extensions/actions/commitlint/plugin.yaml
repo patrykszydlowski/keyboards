@@ -1,0 +1,9 @@
+
+# yaml-language-server: $schema=https://static.trunk.io/pub/trunk-yaml-schema.json
+
+version: 0.1
+
+actions:
+  definitions:
+    - id: commitlint
+      run_from: .trunk/configs
