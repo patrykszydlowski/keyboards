@@ -16,6 +16,7 @@ plugins:
 actions:
   enabled:
     - commitlint
+    - trufflehog-pre-commit
     - trunk-announce
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
@@ -28,9 +29,12 @@ lint:
     - prettier@3.5.3
     - shellcheck@0.10.0
     - shfmt@3.6.0
+    - trufflehog@3.88.20
+    - trufflehog-git@3.88.20
     - yamllint@1.37.0
 
 runtimes:
   enabled:
+    - go@1.21.0
     - node@18.20.5
     - python@3.10.8
