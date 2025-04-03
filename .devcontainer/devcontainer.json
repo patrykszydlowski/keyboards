@@ -13,7 +13,7 @@
 			"settings": {
 				"editor.defaultFormatter": "trunk.io"
 			},
-			"extensions": ["editorconfig.editorconfig"]
+			"extensions": ["editorconfig.editorconfig", "redhat.vscode-yaml"]
 		}
 	}
 }
