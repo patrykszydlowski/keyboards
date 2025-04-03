@@ -22,6 +22,7 @@ actions:
 
 lint:
   enabled:
+    - pre-commit-hooks@5.0.0
     - prettier@3.5.3
     - yamllint@1.37.0
 
